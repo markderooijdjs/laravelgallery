@@ -7,7 +7,9 @@
     <title>Gallery app</title>
 </head>
 <body>
+    @include('inc.topbar')
 <div class="row">
+    @include('inc.messages')
     @yield('content')
 </div>
     
